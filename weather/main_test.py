@@ -1,0 +1,1 @@
+import unittestfrom weather import get_weatherclass TestWeatherMethods(unittest.TestCase):    def test_vlas(self):        res = get_weather(55.44, 37.36)        self.assertIn("Vlas’yevo", res)if __name__ == '__main__':    unittest.main()

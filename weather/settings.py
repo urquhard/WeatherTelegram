@@ -1,0 +1,1 @@
+from pydantic import BaseSettingsclass Settings(BaseSettings):    telegram_token: str    open_weather_api: str    url_weather_api: str    settings = Settings()
